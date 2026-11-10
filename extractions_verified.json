@@ -1,0 +1,3527 @@
+{
+ "emprise_au_sol": {
+  "parameter": "emprise_au_sol",
+  "sector": "UB",
+  "building_types": [
+   "logement"
+  ],
+  "status": "reglemente",
+  "rules": [
+   {
+    "parameter": "emprise_au_sol",
+    "regulation_status": "reglemente",
+    "kind": "maximum",
+    "value": 60.0,
+    "value_max": null,
+    "unit": "%",
+    "formula_text": null,
+    "summary": "Maximum Coefficient d'Emprise au Sol is 60% for sector UB.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [
+     {
+      "description": "No rule is set (il n'est pas fixé de règle) for technical works needed for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.9#9.3",
+       "document": null,
+       "article": "UB.9",
+       "sub_item": "9.3",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "Les ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "No rule is set for buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.9#9.3",
+       "document": null,
+       "article": "UB.9",
+       "sub_item": "9.3",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "Les constructions et installations nécessaires aux services publics ou d'intérêt collectif,",
+       "verified": true
+      }
+     },
+     {
+      "description": "No rule is set for the rebuilding of an existing building destroyed after a disaster.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.9#9.3",
+       "document": null,
+       "article": "UB.9",
+       "sub_item": "9.3",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "La reconstruction d'un bâtiment existant détruit en tout ou partie à la suite d'un sinistre.",
+       "verified": true
+      }
+     },
+     {
+      "description": "No rule is set for modifications or extensions of existing buildings that do not respect the zone rules, provided the footprint before works is not increased.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.9#9.3",
+       "document": null,
+       "article": "UB.9",
+       "sub_item": "9.3",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "Les modifications ou extensions de bâtiments existants dont l'implantation ne respecte pas les règles de la zone sous réserve que l'emprise aux sols des constructions avant travaux ne soit pas augmentée.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The blanket exceptions in 9.3 may apply depending on the project (technical works, public facilities, rebuilding after a disaster, extensions that do not increase the footprint): the architect must confirm whether any of them applies."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.9#9.1",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.9",
+      "sub_item": "9.1",
+      "pdf_pages": [
+       10,
+       11
+      ],
+      "printed_pages": [
+       50,
+       51
+      ],
+      "extract": "Pour le secteur UB, le Coefficient d'Emprise au Sol autorisé est de : 60% maximum",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   }
+  ],
+  "notes": [
+   "Sector UB has its own value (60%). Other sectors have different values in UB.9.1: UBa 40%, UBb 50%, UBc 60%. They do not apply to sector UB.",
+   "UB.9.2 (printed page 51) requires that 50% of the non-built spaces remain pleine terre. It is not an emprise limit and relates to the parameter espaces_verts_pleine_terre."
+  ]
+ },
+ "hauteur_maximale": {
+  "parameter": "hauteur_maximale",
+  "sector": "UB",
+  "building_types": [
+   "logement"
+  ],
+  "status": "reglemente",
+  "rules": [
+   {
+    "parameter": "hauteur_maximale",
+    "regulation_status": "reglemente",
+    "kind": "maximum",
+    "value": 9.0,
+    "value_max": null,
+    "unit": "m",
+    "formula_text": null,
+    "summary": "Zone UB: maximum height of 9 m at the faîtage (pitched roof, R+1+Combles ou attique).",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "The regulatory heights must be respected at every point of the building.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.1",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.1",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "Les hauteurs réglementaires indiquées ci-après doivent être respectées en tout point des constructions.",
+       "verified": true
+      }
+     },
+     {
+      "description": "New buildings on a shared boundary (mitoyenneté) must fit the épannelage of the existing buildings on the boundaries.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.3",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.3",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "Les constructions nouvelles lorsqu'elles sont implantées en mitoyenneté doivent s'inscrire dans l'épannelage défini par les constructions existantes en limites séparatives.",
+       "verified": true
+      }
+     },
+     {
+      "description": "On sloping land facing the Oise, allowed heights are set from a median point defined in an annex (the annex is not in the document provided).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.6",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.6",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Dans le cas de terrains en pente orienté vers l'Oise, les hauteurs autorisées sont déterminées en fonction du point médian défini en annexe.",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Technical elements (chimneys, lift rooms, solar devices) are not counted in the heights H and HT, subject to article UB.11.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.2",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.2",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "ne sont pas pris en compte dans le calcul des hauteurs H et HT sous réserve du respect des dispositions de l'article UB.11.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The regulatory height can be exceeded or reduced by up to one floor in three cases (same height as neighbours, hiding gable walls, sloping ground).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.4",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.4",
+       "pdf_pages": [
+        12
+       ],
+       "printed_pages": [
+        52
+       ],
+       "extract": "Un dépassement ou une réduction de la hauteur réglementaire peuvent être imposés dans la limite d'un étage, dans les cas suivants :",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Aux constructions et installations nécessaires aux services publics ou d'intérêt collectif,",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to technical works for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Aux ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to the identical rebuilding of an existing building destroyed after a disaster.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "À la reconstruction à l'identique d'un bâtiment existant détruit en tout ou partie à la suite d'un sinistre.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The heights H and HT used in 10.2 and the 'gabarit enveloppe' of 10.5.2 are not defined in the chunks provided.",
+     "The exceptions in 10.2, 10.4 and 10.7 may apply depending on the project: the architect must confirm."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.10#10.5",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.10",
+      "sub_item": "10.5",
+      "pdf_pages": [
+       12
+      ],
+      "printed_pages": [
+       52
+      ],
+      "extract": "R+1+Combles ou attique, avec un maximum de 9 m au faîtage",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "hauteur_maximale",
+    "regulation_status": "reglemente",
+    "kind": "maximum",
+    "value": 7.0,
+    "value_max": null,
+    "unit": "m",
+    "formula_text": null,
+    "summary": "Zone UB: for buildings with a flat roof (toiture terrasse), maximum height of 7 m at the acrotère (R+1).",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "The regulatory heights must be respected at every point of the building.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.1",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.1",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "Les hauteurs réglementaires indiquées ci-après doivent être respectées en tout point des constructions.",
+       "verified": true
+      }
+     },
+     {
+      "description": "New buildings on a shared boundary (mitoyenneté) must fit the épannelage of the existing buildings on the boundaries.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.3",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.3",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "Les constructions nouvelles lorsqu'elles sont implantées en mitoyenneté doivent s'inscrire dans l'épannelage défini par les constructions existantes en limites séparatives.",
+       "verified": true
+      }
+     },
+     {
+      "description": "On sloping land facing the Oise, allowed heights are set from a median point defined in an annex (the annex is not in the document provided).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.6",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.6",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Dans le cas de terrains en pente orienté vers l'Oise, les hauteurs autorisées sont déterminées en fonction du point médian défini en annexe.",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Technical elements (chimneys, lift rooms, solar devices) are not counted in the heights H and HT, subject to article UB.11.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.2",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.2",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "ne sont pas pris en compte dans le calcul des hauteurs H et HT sous réserve du respect des dispositions de l'article UB.11.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The regulatory height can be exceeded or reduced by up to one floor in three cases (same height as neighbours, hiding gable walls, sloping ground).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.4",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.4",
+       "pdf_pages": [
+        12
+       ],
+       "printed_pages": [
+        52
+       ],
+       "extract": "Un dépassement ou une réduction de la hauteur réglementaire peuvent être imposés dans la limite d'un étage, dans les cas suivants :",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Aux constructions et installations nécessaires aux services publics ou d'intérêt collectif,",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to technical works for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Aux ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to the identical rebuilding of an existing building destroyed after a disaster.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "À la reconstruction à l'identique d'un bâtiment existant détruit en tout ou partie à la suite d'un sinistre.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The heights H and HT used in 10.2 and the 'gabarit enveloppe' of 10.5.2 are not defined in the chunks provided.",
+     "The exceptions in 10.2, 10.4 and 10.7 may apply depending on the project: the architect must confirm."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.10#10.5",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.10",
+      "sub_item": "10.5",
+      "pdf_pages": [
+       12
+      ],
+      "printed_pages": [
+       52
+      ],
+      "extract": "Pour les bâtiments avec toiture terrasse la hauteur maximale autorisée est de 7m à l'acrotère soit R+1.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   }
+  ],
+  "notes": [
+   "Other sectors have different heights in UB.10.5 and do not apply to sector UB: UBb 12 m at the faîtage (pitched roof) or 9 m at the acrotère (flat roof); UBc1 9 m at the faîtage; UBc3 9 m at the acrotère (flat roof); UBc2 is given only as R+2+combles ou attique, with no height in metres.",
+   "10.2 refers to article UB.11 (aspect extérieur), which is another article of this document.",
+   "The OCR text reads 'UBci' in 10.5.4: it is the sector UBc1 (the PDF page shows UBc1).",
+   "The number of levels (R+1+Combles ou attique, R+1 for flat roofs) is in the same sub-item 10.5: see the parameter nombre_de_niveaux."
+  ]
+ },
+ "nombre_de_niveaux": {
+  "parameter": "nombre_de_niveaux",
+  "sector": "UB",
+  "building_types": [
+   "logement"
+  ],
+  "status": "reglemente",
+  "rules": [
+   {
+    "parameter": "nombre_de_niveaux",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": "R+1+Combles ou attique",
+    "summary": "Zone UB: number of levels limited to R+1 plus Combles or attique (pitched roof), with a maximum of 9 m at the faîtage.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "Parts of the building above the façade height (defined by the gabarit enveloppe) may have only one habitable level.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.5",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.5",
+       "pdf_pages": [
+        12
+       ],
+       "printed_pages": [
+        52
+       ],
+       "extract": "Les parties de construction situées au-dessus de la hauteur de façade, définie par le gabarit enveloppe, ne peuvent comporter plus d'un seul niveau habitable.",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "The regulatory height can be exceeded or reduced by up to one floor in three cases (same height as neighbours, hiding gable walls, sloping ground).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.4",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.4",
+       "pdf_pages": [
+        12
+       ],
+       "printed_pages": [
+        52
+       ],
+       "extract": "Un dépassement ou une réduction de la hauteur réglementaire peuvent être imposés dans la limite d'un étage, dans les cas suivants :",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Aux constructions et installations nécessaires aux services publics ou d'intérêt collectif,",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to technical works for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Aux ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to the identical rebuilding of an existing building destroyed after a disaster.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "À la reconstruction à l'identique d'un bâtiment existant détruit en tout ou partie à la suite d'un sinistre.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "How R+1, 'combles' and 'attique' are counted is not defined in the chunks provided: the architect must interpret.",
+     "The 'gabarit enveloppe' used in 10.5.2 is not defined in the chunks provided."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.10#10.5",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.10",
+      "sub_item": "10.5",
+      "pdf_pages": [
+       12
+      ],
+      "printed_pages": [
+       52
+      ],
+      "extract": "R+1+Combles ou attique, avec un maximum de 9 m au faîtage",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "nombre_de_niveaux",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": "R+1",
+    "summary": "Zone UB: for buildings with a flat roof (toiture terrasse), the limit is R+1 (7 m at the acrotère).",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "Parts of the building above the façade height (defined by the gabarit enveloppe) may have only one habitable level.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.5",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.5",
+       "pdf_pages": [
+        12
+       ],
+       "printed_pages": [
+        52
+       ],
+       "extract": "Les parties de construction situées au-dessus de la hauteur de façade, définie par le gabarit enveloppe, ne peuvent comporter plus d'un seul niveau habitable.",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "The regulatory height can be exceeded or reduced by up to one floor in three cases (same height as neighbours, hiding gable walls, sloping ground).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.4",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.4",
+       "pdf_pages": [
+        12
+       ],
+       "printed_pages": [
+        52
+       ],
+       "extract": "Un dépassement ou une réduction de la hauteur réglementaire peuvent être imposés dans la limite d'un étage, dans les cas suivants :",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Aux constructions et installations nécessaires aux services publics ou d'intérêt collectif,",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to technical works for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "Aux ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to the identical rebuilding of an existing building destroyed after a disaster.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.10#10.7",
+       "document": null,
+       "article": "UB.10",
+       "sub_item": "10.7",
+       "pdf_pages": [
+        13
+       ],
+       "printed_pages": [
+        53
+       ],
+       "extract": "À la reconstruction à l'identique d'un bâtiment existant détruit en tout ou partie à la suite d'un sinistre.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "How R+1 is counted for a flat roof is not defined in the chunks provided: the architect must interpret."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.10#10.5",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.10",
+      "sub_item": "10.5",
+      "pdf_pages": [
+       12
+      ],
+      "printed_pages": [
+       52
+      ],
+      "extract": "Pour les bâtiments avec toiture terrasse la hauteur maximale autorisée est de 7m à l'acrotère soit R+1.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   }
+  ],
+  "notes": [
+   "Other sectors have different levels in UB.10.5 and do not apply to sector UB: UBb R+2+combles (UBb1 up to R+3+Combles ou attique); UBc1 R+1+C; UBc2 R+2+combles ou attique; UBc3 R+2 (flat roofs).",
+   "The OCR text reads 'UBci' in 10.5.4: it is the sector UBc1 (the PDF page shows UBc1).",
+   "The heights in metres are in the same sub-item 10.5: see the parameter hauteur_maximale."
+  ]
+ },
+ "limites_separatives": {
+  "parameter": "limites_separatives",
+  "sector": "UB",
+  "building_types": [
+   "logement"
+  ],
+  "status": "reglemente",
+  "rules": [
+   {
+    "parameter": "limites_separatives",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": null,
+    "summary": "Zone UB: main buildings may be built on one or both lateral boundaries, if the facades on the boundaries have no openings (baies); otherwise the margin d'isolement applies.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [
+     {
+      "description": "The article does not apply to technical works for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to modifications or extensions of existing buildings that do not respect the zone rules, provided the distance to the boundary is not reduced and new openings (baies) respect the regulatory distances.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux modifications ou extensions de bâtiments existants dont l'implantation ne respecte pas les règles de la zone sous réserve : - que la distance par rapport à la limite séparative ne soit pas diminuée, - que les baies créées à l'occasion des travaux, respectent les distances réglementaires par rapport aux limites séparatives.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to uncovered swimming pools.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "AUX piscines non couvertes.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The building height HT used in the formula is not given in these chunks: it comes from the project (see hauteur_maximale).",
+     "Which boundaries are 'limites latérales' and which is the 'fond de parcelle' depends on the plot and must be decided by the architect.",
+     "The exceptions in 7.3 may apply depending on the project: the architect must confirm."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.7#7.1",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.7",
+      "sub_item": "7.1",
+      "pdf_pages": [
+       8
+      ],
+      "printed_pages": [
+       48
+      ],
+      "extract": "Les constructions principales peuvent être édifiées, sur une des limites latérales ou sur les deux. Les façades implantées sur les limites séparatives ne doivent pas comporter de baies. A défaut, la marge d'isolement définie ci-dessous doit être respectée.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "limites_separatives",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": null,
+    "summary": "Zone UB: the margins d'isolement must also be respected along the other boundaries (rear boundary, 'limite de fond de parcelle').",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [
+     {
+      "description": "Buildings may be placed in the continuity of an existing building on the neighbouring land, if their appearance is compatible with the surroundings and they have no openings.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.1",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.1",
+       "pdf_pages": [
+        8
+       ],
+       "printed_pages": [
+        48
+       ],
+       "extract": "les constructions peuvent s'implanter dans la continuité d'un bâtiment existant sur le terrain voisin, à condition de présenter un aspect compatible avec le caractère ou l'intérêt des lieux avoisinants, du site et des paysages et de ne pas comporter de baies.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The margins along the other boundaries do not apply to garden sheds and annexes, provided their appearance is compatible and, if on the boundary, their facades have no openings.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.1",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.1",
+       "pdf_pages": [
+        8
+       ],
+       "printed_pages": [
+        48
+       ],
+       "extract": "Les marges d'isolement par rapport aux autres limites séparatives ne s'imposent pas aux abris de jardins et aux bâtiments annexes, sous réserve:",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to technical works for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to modifications or extensions of existing buildings that do not respect the zone rules, provided the distance to the boundary is not reduced and new openings (baies) respect the regulatory distances.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux modifications ou extensions de bâtiments existants dont l'implantation ne respecte pas les règles de la zone sous réserve : - que la distance par rapport à la limite séparative ne soit pas diminuée, - que les baies créées à l'occasion des travaux, respectent les distances réglementaires par rapport aux limites séparatives.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to uncovered swimming pools.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "AUX piscines non couvertes.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The building height HT used in the formula is not given in these chunks: it comes from the project (see hauteur_maximale).",
+     "Which boundaries are 'limites latérales' and which is the 'fond de parcelle' depends on the plot and must be decided by the architect.",
+     "The exceptions in 7.3 may apply depending on the project: the architect must confirm."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.7#7.1",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.7",
+      "sub_item": "7.1",
+      "pdf_pages": [
+       8
+      ],
+      "printed_pages": [
+       48
+      ],
+      "extract": "Les marges d'isolement doivent également être respectées par rapport aux autres limites séparatives (limite de fond de parcelle).",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "limites_separatives",
+    "regulation_status": "reglemente",
+    "kind": "formula",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": "L >= HT/2 (HT = height of the construction measured from the natural ground at the boundaries) when set back from the boundary; minimum 4 m if the construction has openings (baies), minimum 2,5 m if the facade has no openings",
+    "summary": "Zone UB: when the building is set back, the margin d'isolement L must be at least half the height (HT/2), with a minimum of 4 m (with openings) or 2,5 m (facade without openings).",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [
+     {
+      "description": "Projections (saillies), except balconies, are allowed inside the margins if they create no direct or indirect views.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.2",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.2",
+       "pdf_pages": [
+        8,
+        9
+       ],
+       "printed_pages": [
+        48,
+        49
+       ],
+       "extract": "Les saillies, hormis les balcons, sont admises dans ces marges d'isolement dès lors qu'elles ne créent pas de vues directes ni indirectes.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to technical works for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to modifications or extensions of existing buildings that do not respect the zone rules, provided the distance to the boundary is not reduced and new openings (baies) respect the regulatory distances.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux modifications ou extensions de bâtiments existants dont l'implantation ne respecte pas les règles de la zone sous réserve : - que la distance par rapport à la limite séparative ne soit pas diminuée, - que les baies créées à l'occasion des travaux, respectent les distances réglementaires par rapport aux limites séparatives.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to uncovered swimming pools.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "AUX piscines non couvertes.",
+       "verified": true
+      }
+     },
+     {
+      "description": "The article does not apply to buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.7#7.3",
+       "document": null,
+       "article": "UB.7",
+       "sub_item": "7.3",
+       "pdf_pages": [
+        9
+       ],
+       "printed_pages": [
+        49
+       ],
+       "extract": "Aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The building height HT used in the formula is not given in these chunks: it comes from the project (see hauteur_maximale).",
+     "Which boundaries are 'limites latérales' and which is the 'fond de parcelle' depends on the plot and must be decided by the architect.",
+     "The exceptions in 7.3 may apply depending on the project: the architect must confirm.",
+     "The wording mixes 'a minimum of 4 m' (construction with openings) and '2,5 m' (facade without openings): which one applies to a mixed building is for the architect to decide."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.7#7.2",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.7",
+      "sub_item": "7.2",
+      "pdf_pages": [
+       8,
+       9
+      ],
+      "printed_pages": [
+       48,
+       49
+      ],
+      "extract": "En cas d'implantation en retrait, la largeur (L) des marges d'isolement est au moins égale à la moitié de la hauteur (HT/2) de la construction par rapport au niveau du terrain naturel au droit des limites séparatives si la construction comporte des baies, avec un minimum de 4 mètres, ou minimum de 2,5 mètres si la façade ne comporte pas de baies.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   }
+  ],
+  "notes": [
+   "Other sectors have different rules and do not apply to sector UB: UBb must be set back at least 5 m from the boundaries (7.4); UBc2 and UBc3 must be set back with a margin of at least half the height and a minimum of 4 m (with openings) or 2,5 m (without) (7.5).",
+   "UB.8.4 (sectors UBc1, UBc2, UBc3) is about the distance between two buildings on the same plot, not about plot boundaries, and does not apply to sector UB.",
+   "The margin formula needs the height HT of the building: it is defined by the project (see the parameter hauteur_maximale for the limits)."
+  ]
+ },
+ "implantation_voies": {
+  "parameter": "implantation_voies",
+  "sector": "UB",
+  "building_types": [
+   "logement"
+  ],
+  "status": "reglemente",
+  "rules": [
+   {
+    "parameter": "implantation_voies",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 3.0,
+    "value_max": null,
+    "unit": "m",
+    "formula_text": null,
+    "summary": "Zone UB: buildings must be set back at least 3 m from the alignment of public roads or the boundary of private roads.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [
+     {
+      "description": "Special case: the position of the building must take into account the neighbouring buildings, for a harmonious urban insertion along the road (different provisions apply).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.2",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.2",
+       "pdf_pages": [
+        7
+       ],
+       "printed_pages": [
+        47
+       ],
+       "extract": "Pour que l'implantation de la construction tienne compte de celle des constructions voisines, afin de contribuer à une insertion urbaine harmonieuse le long de la voie considérée.",
+       "verified": true
+      }
+     },
+     {
+      "description": "Along a pedestrian path, new buildings may be placed at the alignment.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.2",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.2",
+       "pdf_pages": [
+        7
+       ],
+       "printed_pages": [
+        47
+       ],
+       "extract": "En bordure d'un cheminement piéton, les constructions ou installations nouvelles peuvent s'implanter à l'alignement.",
+       "verified": true
+      }
+     },
+     {
+      "description": "No minimum distance for modifications or raising of existing buildings that do not respect the new rules, provided the existing setback is not reduced.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.3",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.3",
+       "pdf_pages": [
+        7,
+        8
+       ],
+       "printed_pages": [
+        47,
+        48
+       ],
+       "extract": "Les modifications ou surélévations de bâtiments existants qui ne seraient pas implantés conformément à la nouvelle réglementation à condition que le retrait existant avant travaux ne soit pas diminué.",
+       "verified": true
+      }
+     },
+     {
+      "description": "No minimum distance for thermal improvement works on an existing building set back less than required.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.3",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.3",
+       "pdf_pages": [
+        7,
+        8
+       ],
+       "printed_pages": [
+        47,
+        48
+       ],
+       "extract": "Les travaux d'amélioration thermique d'une construction existante, implantée avec un recul moindre que celui prévu ci-dessus.",
+       "verified": true
+      }
+     },
+     {
+      "description": "No minimum distance for the identical rebuilding of a building destroyed after a disaster (refers to article L. 111-3 of the Code de l'urbanisme, not in this document).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.3",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.3",
+       "pdf_pages": [
+        7,
+        8
+       ],
+       "printed_pages": [
+        47,
+        48
+       ],
+       "extract": "La reconstruction à l'identique d'un bâtiment existant détruit tout ou partie à la suite d'un sinistre, (cf. article L. 111-3 du CU),",
+       "verified": true
+      }
+     },
+     {
+      "description": "No minimum distance for technical works for roads and public utility networks.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.3",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.3",
+       "pdf_pages": [
+        7,
+        8
+       ],
+       "printed_pages": [
+        47,
+        48
+       ],
+       "extract": "Les ouvrages techniques nécessaires à l'exploitation de la voirie et des réseaux publics d'infrastructures (postes de transformation, stations de relevage des eaux, abribus, pylônes, etc.),",
+       "verified": true
+      }
+     },
+     {
+      "description": "No minimum distance for buildings and installations needed for public services or collective interest.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.3",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.3",
+       "pdf_pages": [
+        7,
+        8
+       ],
+       "printed_pages": [
+        47,
+        48
+       ],
+       "extract": "Les constructions et installations nécessaires aux services publics ou d'intérêt collectif.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The special cases in 6.2 ('des dispositions différentes seront appliquées') and the exemptions in 6.3 may apply depending on the project: the architect must confirm.",
+     "6.2.1 gives no figure: how the neighbours' position changes the 3 m is for the architect to interpret.",
+     "Exemption 6.3.3 refers to article L. 111-3 of the Code de l'urbanisme, which is not in this document."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.6#6.1",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.6",
+      "sub_item": "6.1",
+      "pdf_pages": [
+       6,
+       7
+      ],
+      "printed_pages": [
+       46,
+       47
+      ],
+      "extract": "Les constructions doivent être édifiées à une distance d'au moins 3m de l'alignement des voies publiques ou de la limite d'emprise des voies privées existantes ou à créer.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "implantation_voies",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 10.0,
+    "value_max": null,
+    "unit": "m",
+    "formula_text": null,
+    "summary": "Zone UB, plots along the chemin de Halage: new buildings and extensions must be set back 10 m from the alignment.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "Applies only to plots bordering the chemin de Halage.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.2",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.2",
+       "pdf_pages": [
+        7
+       ],
+       "printed_pages": [
+        47
+       ],
+       "extract": "Pour les propriétés riveraines du chemin de Halage, afin de préserver et de conforter les continuités écologiques,",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Article 6.3 lists works for which no minimum distance is imposed; whether it also overrides this special rule is for the architect to decide.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.3",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.3",
+       "pdf_pages": [
+        7,
+        8
+       ],
+       "printed_pages": [
+        47,
+        48
+       ],
+       "extract": "Aucune distance minimale n'est imposée pour l'implantation des constructions suivantes",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "Whether the plot borders the chemin de Halage is a project fact entered by the architect.",
+     "6.3 may also apply to this rule: the architect must confirm."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.6#6.2",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.6",
+      "sub_item": "6.2",
+      "pdf_pages": [
+       7
+      ],
+      "printed_pages": [
+       47
+      ],
+      "extract": "un retrait de 10 mètres par rapport à l'alignement est imposé à toute nouvelle construction ou extension de construction existante.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "implantation_voies",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 5.0,
+    "value_max": null,
+    "unit": "m",
+    "formula_text": null,
+    "summary": "Zone UB, plots along the stream (ru): new buildings and installations must be set back 5 m from the banks.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "Extensions, raising or modifications of existing buildings must not reduce the existing setbacks from the stream.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.2",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.2",
+       "pdf_pages": [
+        7
+       ],
+       "printed_pages": [
+        47
+       ],
+       "extract": "les extensions, surélévations ou modifications sur les bâtis ne doivent pas avoir pour effet de réduire les marges de recul existantes par rapport au ru.",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Article 6.3 lists works for which no minimum distance is imposed; whether it also overrides this special rule is for the architect to decide.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.3",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.3",
+       "pdf_pages": [
+        7,
+        8
+       ],
+       "printed_pages": [
+        47,
+        48
+       ],
+       "extract": "Aucune distance minimale n'est imposée pour l'implantation des constructions suivantes",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "Whether the plot borders the stream (ru) is a project fact entered by the architect.",
+     "6.3 may also apply to this rule: the architect must confirm."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.6#6.2",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.6",
+      "sub_item": "6.2",
+      "pdf_pages": [
+       7
+      ],
+      "printed_pages": [
+       47
+      ],
+      "extract": "En bordure du ru, les constructions ou installations nouvelles doivent s'implanter en recul de 5 mètres par rapport aux berges de ce ruisseau.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "implantation_voies",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 10.0,
+    "value_max": null,
+    "unit": "m",
+    "formula_text": null,
+    "summary": "Zone UB, near a railway: new buildings and installations must be at least 10 m from the nearest rail.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "Applies only where the plot is near a railway.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.4",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.4",
+       "pdf_pages": [
+        8
+       ],
+       "printed_pages": [
+        48
+       ],
+       "extract": "Implantation par rapport aux voies ferrées",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Article 6.3 lists works for which no minimum distance is imposed; whether it also overrides this special rule is for the architect to decide.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.6#6.3",
+       "document": null,
+       "article": "UB.6",
+       "sub_item": "6.3",
+       "pdf_pages": [
+        7,
+        8
+       ],
+       "printed_pages": [
+        47,
+        48
+       ],
+       "extract": "Aucune distance minimale n'est imposée pour l'implantation des constructions suivantes",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "Whether a railway is close to the plot is a project fact entered by the architect.",
+     "6.3 may also apply to this rule: the architect must confirm."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": null,
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.6#6.4",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.6",
+      "sub_item": "6.4",
+      "pdf_pages": [
+       8
+      ],
+      "printed_pages": [
+       48
+      ],
+      "extract": "Les constructions ou installations nouvelles ne peuvent s'implanter à moins de 10 mètres du rail le plus proche de la voie de circulation principale la plus proche.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   }
+  ],
+  "notes": [
+   "Other sectors have their own rules and do not apply to sector UB: UBb1 and UBc2 may build at the alignment (6.2.5, the OCR text reads 'UBb1i'); UBc3 must be set back at least 5 m from public roads and private roads open to public traffic (6.2.6).",
+   "The 3 m rule (6.1.1) is the general rule; the 10 m (chemin de Halage), 5 m (stream) and 10 m (railway) rules are special cases that depend on where the plot is.",
+   "Exemption 6.3.3 refers to article L. 111-3 of the Code de l'urbanisme, which is not in this document."
+  ]
+ },
+ "stationnement": {
+  "parameter": "stationnement",
+  "sector": "UB",
+  "building_types": [
+   "logement"
+  ],
+  "status": "reglemente",
+  "rules": [
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 1.0,
+    "value_max": null,
+    "unit": "places_par_logement",
+    "formula_text": null,
+    "summary": "Housing: minimum 1 parking place per dwelling of 60 m² SDP or less.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "Applies to a dwelling of 60 m² SDP or less.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "un logement inférieur ou égal à 60m² de SDP",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Where the places cannot be built on the plot (technical, architectural or urban reasons), the builder may be authorised, on a justified request, to provide them elsewhere (within 300 m on foot, or by acquisition or a 15-year concession).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.4",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.4",
+       "pdf_pages": [
+        17,
+        18,
+        19
+       ],
+       "printed_pages": [
+        57,
+        58,
+        59
+       ],
+       "extract": "en cas d'impossibilité de réaliser tout ou partie des places de stationnement nécessaires sur le terrain pour des raisons techniques ou des motifs d'architecture ou d'urbanisme, le constructeur peut être autorisé, sur demande justifiée de sa part",
+       "verified": true
+      }
+     },
+     {
+      "description": "The regulatory number of places can exceptionally be reduced, on justification by the applicant, where different uses on the same plot create needs at very different times.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.10",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.10",
+       "pdf_pages": [
+        21
+       ],
+       "printed_pages": [
+        61
+       ],
+       "extract": "le nombre réglementaire de places peut être exceptionnellement réduit sur justification fournie par le demandeur de l'autorisation d'utilisation du sol",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The table gives 'inférieur ou égal à 60m²' and 'inférieur ou égal à 150 m²' without saying the bands are nested: they are read here as 1 place up to 60 m² and 2 places above 60 m² and up to 150 m² per dwelling (the architect must confirm).",
+     "The PLU sets the number per dwelling size; a project given only as an average dwelling area can only be compared approximately."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "avg_dwelling_sdp_m2",
+      "op": "<=",
+      "value": 60.0,
+      "text": "dwelling of 60 m² SDP or less"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "Minimum 1 place pour un logement inférieur ou égal à 60m² de SDP",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 2.0,
+    "value_max": null,
+    "unit": "places_par_logement",
+    "formula_text": null,
+    "summary": "Housing: minimum 2 parking places per dwelling of 150 m² SDP or less.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "Applies to a dwelling of 150 m² SDP or less (read as above 60 m²).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "un logement inférieur ou égal à 150 m² de SDP",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Where the places cannot be built on the plot (technical, architectural or urban reasons), the builder may be authorised, on a justified request, to provide them elsewhere (within 300 m on foot, or by acquisition or a 15-year concession).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.4",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.4",
+       "pdf_pages": [
+        17,
+        18,
+        19
+       ],
+       "printed_pages": [
+        57,
+        58,
+        59
+       ],
+       "extract": "en cas d'impossibilité de réaliser tout ou partie des places de stationnement nécessaires sur le terrain pour des raisons techniques ou des motifs d'architecture ou d'urbanisme, le constructeur peut être autorisé, sur demande justifiée de sa part",
+       "verified": true
+      }
+     },
+     {
+      "description": "The regulatory number of places can exceptionally be reduced, on justification by the applicant, where different uses on the same plot create needs at very different times.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.10",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.10",
+       "pdf_pages": [
+        21
+       ],
+       "printed_pages": [
+        61
+       ],
+       "extract": "le nombre réglementaire de places peut être exceptionnellement réduit sur justification fournie par le demandeur de l'autorisation d'utilisation du sol",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The table gives 'inférieur ou égal à 60m²' and 'inférieur ou égal à 150 m²' without saying the bands are nested: they are read here as 1 place up to 60 m² and 2 places above 60 m² and up to 150 m² per dwelling (the architect must confirm)."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "avg_dwelling_sdp_m2",
+      "op": ">",
+      "value": 60.0,
+      "text": "dwelling above 60 m² SDP (bands read as nested)"
+     },
+     {
+      "fact": "avg_dwelling_sdp_m2",
+      "op": "<=",
+      "value": 150.0,
+      "text": "dwelling of 150 m² SDP or less"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "minimum 2 places pour un logement inférieur ou égal à 150 m² de SDP",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": null,
+    "summary": "Housing: above 150 m² SDP, 1 extra place for each started 40 m² slice of additional SDP, within a limit of 3 places.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "Applies to the SDP of a dwelling beyond 150 m².",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "Au-delà de 150 m² de SDP",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Where the places cannot be built on the plot (technical, architectural or urban reasons), the builder may be authorised, on a justified request, to provide them elsewhere (within 300 m on foot, or by acquisition or a 15-year concession).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.4",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.4",
+       "pdf_pages": [
+        17,
+        18,
+        19
+       ],
+       "printed_pages": [
+        57,
+        58,
+        59
+       ],
+       "extract": "en cas d'impossibilité de réaliser tout ou partie des places de stationnement nécessaires sur le terrain pour des raisons techniques ou des motifs d'architecture ou d'urbanisme, le constructeur peut être autorisé, sur demande justifiée de sa part",
+       "verified": true
+      }
+     },
+     {
+      "description": "The regulatory number of places can exceptionally be reduced, on justification by the applicant, where different uses on the same plot create needs at very different times.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.10",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.10",
+       "pdf_pages": [
+        21
+       ],
+       "printed_pages": [
+        61
+       ],
+       "extract": "le nombre réglementaire de places peut être exceptionnellement réduit sur justification fournie par le demandeur de l'autorisation d'utilisation du sol",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "'dans la limite de 3 places' can mean at most 3 extra places or 3 places in total: the architect must interpret.",
+     "The table gives 'inférieur ou égal à 60m²' and 'inférieur ou égal à 150 m²' without saying the bands are nested: they are read here as 1 place up to 60 m² and 2 places above 60 m² and up to 150 m² per dwelling (the architect must confirm)."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "avg_dwelling_sdp_m2",
+      "op": ">",
+      "value": 150.0,
+      "text": "dwelling area beyond 150 m² SDP"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "Au-delà de 150 m² de SDP 1 place en plus pour chaque tranche entamée de 40 m² de SDP supplémentaire dans la limite de 3 places.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "per_unit",
+    "value": 1.0,
+    "value_max": null,
+    "unit": "places_par_logement",
+    "formula_text": null,
+    "summary": "Housing within 500 m of a railway station: 1 place per dwelling.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "The plot is within 500 m of a railway station.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "dans un périmètre de 500m autour d'une gare",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Where the places cannot be built on the plot (technical, architectural or urban reasons), the builder may be authorised, on a justified request, to provide them elsewhere (within 300 m on foot, or by acquisition or a 15-year concession).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.4",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.4",
+       "pdf_pages": [
+        17,
+        18,
+        19
+       ],
+       "printed_pages": [
+        57,
+        58,
+        59
+       ],
+       "extract": "en cas d'impossibilité de réaliser tout ou partie des places de stationnement nécessaires sur le terrain pour des raisons techniques ou des motifs d'architecture ou d'urbanisme, le constructeur peut être autorisé, sur demande justifiée de sa part",
+       "verified": true
+      }
+     },
+     {
+      "description": "The regulatory number of places can exceptionally be reduced, on justification by the applicant, where different uses on the same plot create needs at very different times.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.10",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.10",
+       "pdf_pages": [
+        21
+       ],
+       "printed_pages": [
+        61
+       ],
+       "extract": "le nombre réglementaire de places peut être exceptionnellement réduit sur justification fournie par le demandeur de l'autorisation d'utilisation du sol",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The table layout leaves open whether this line belongs to general housing (read here) or to aided housing.",
+     "The table does not say whether the 'périmètre de 500m autour d'une gare' line replaces or adds to the size-band norms."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "within_500m_station",
+      "op": "is_true",
+      "value": null,
+      "text": "plot within 500 m of a railway station"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "1 place par logement dans un périmètre de 500m autour d'une gare",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "per_unit",
+    "value": 1.0,
+    "value_max": null,
+    "unit": "places_par_logement",
+    "formula_text": null,
+    "summary": "Aided rental housing (logements locatifs financés avec un prêt aidé par l'État): 1 place per dwelling.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement_aide"
+    ],
+    "conditions": [
+     {
+      "description": "The housing is rental housing financed with a state-aided loan.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "Logements locatifs financés avec un prêt aidé par l'Etat",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Where the places cannot be built on the plot (technical, architectural or urban reasons), the builder may be authorised, on a justified request, to provide them elsewhere (within 300 m on foot, or by acquisition or a 15-year concession).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.4",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.4",
+       "pdf_pages": [
+        17,
+        18,
+        19
+       ],
+       "printed_pages": [
+        57,
+        58,
+        59
+       ],
+       "extract": "en cas d'impossibilité de réaliser tout ou partie des places de stationnement nécessaires sur le terrain pour des raisons techniques ou des motifs d'architecture ou d'urbanisme, le constructeur peut être autorisé, sur demande justifiée de sa part",
+       "verified": true
+      }
+     },
+     {
+      "description": "The regulatory number of places can exceptionally be reduced, on justification by the applicant, where different uses on the same plot create needs at very different times.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.10",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.10",
+       "pdf_pages": [
+        21
+       ],
+       "printed_pages": [
+        61
+       ],
+       "extract": "le nombre réglementaire de places peut être exceptionnellement réduit sur justification fournie par le demandeur de l'autorisation d'utilisation du sol",
+       "verified": true
+      }
+     },
+     {
+      "description": "The obligation to build parking does not apply to transformation or improvement works on buildings of aided rental housing, up to a ceiling of 50% of the existing floor area.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.5",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.5",
+       "pdf_pages": [
+        19,
+        20
+       ],
+       "printed_pages": [
+        59,
+        60
+       ],
+       "extract": "L'obligation de réaliser des aires de stationnement n'est pas applicable aux travaux de transformation ou d'amélioration de bâtiments affectés à des logements locatifs financés avec un prêt aidé par l'Etat",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "Article 12.5.1 also says 'il est exigé une place' for aided rental housing: consistent with this line."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "Logements locatifs financés avec un prêt aidé par l'Etat : 1 place par logement.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "per_unit",
+    "value": 0.5,
+    "value_max": null,
+    "unit": "places_par_logement",
+    "formula_text": null,
+    "summary": "Aided rental housing within 500 m of a railway station: 0.5 place per dwelling.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement_aide"
+    ],
+    "conditions": [
+     {
+      "description": "Aided rental housing within 500 m of a railway station.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "0.5 place dans un périmètre de 500m autour d'une gare",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [
+     {
+      "description": "Where the places cannot be built on the plot (technical, architectural or urban reasons), the builder may be authorised, on a justified request, to provide them elsewhere (within 300 m on foot, or by acquisition or a 15-year concession).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.4",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.4",
+       "pdf_pages": [
+        17,
+        18,
+        19
+       ],
+       "printed_pages": [
+        57,
+        58,
+        59
+       ],
+       "extract": "en cas d'impossibilité de réaliser tout ou partie des places de stationnement nécessaires sur le terrain pour des raisons techniques ou des motifs d'architecture ou d'urbanisme, le constructeur peut être autorisé, sur demande justifiée de sa part",
+       "verified": true
+      }
+     },
+     {
+      "description": "The regulatory number of places can exceptionally be reduced, on justification by the applicant, where different uses on the same plot create needs at very different times.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.10",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.10",
+       "pdf_pages": [
+        21
+       ],
+       "printed_pages": [
+        61
+       ],
+       "extract": "le nombre réglementaire de places peut être exceptionnellement réduit sur justification fournie par le demandeur de l'autorisation d'utilisation du sol",
+       "verified": true
+      }
+     },
+     {
+      "description": "The obligation to build parking does not apply to transformation or improvement works on buildings of aided rental housing, up to a ceiling of 50% of the existing floor area.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.5",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.5",
+       "pdf_pages": [
+        19,
+        20
+       ],
+       "printed_pages": [
+        59,
+        60
+       ],
+       "extract": "L'obligation de réaliser des aires de stationnement n'est pas applicable aux travaux de transformation ou d'amélioration de bâtiments affectés à des logements locatifs financés avec un prêt aidé par l'Etat",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The rounding of 0.5 place is not stated: the architect must interpret.",
+     "The table does not say whether the 'périmètre de 500m autour d'une gare' line replaces or adds to the size-band norms."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "within_500m_station",
+      "op": "is_true",
+      "value": null,
+      "text": "plot within 500 m of a railway station"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "0.5 place dans un périmètre de 500m autour d'une gare",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": "1 visitor place per slice of 5 dwellings",
+    "summary": "Visitor parking: 1 place for each slice of 5 dwellings.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "Applies to buildings with more than 5 dwellings, groups of constructions and lotissements.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "Pour les immeubles comportant plus de 5 logements, les groupes de constructions et les lotissements",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The text does not say whether an incomplete slice of 5 dwellings counts."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "n_dwellings",
+      "op": ">",
+      "value": 5.0,
+      "text": "building with more than 5 dwellings"
+     },
+     {
+      "fact": "is_group_or_lotissement",
+      "op": "is_true",
+      "value": null,
+      "text": "group of constructions or lotissement"
+     }
+    ],
+    "applicability_logic": "any",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "1 place de stationnement doit être réalisé pour chaque tranche de 5 logements pour permettre le stationnement des visiteurs.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": "minimum 1% of the SDP or 10 m² for storage",
+    "summary": "Motorised two-wheelers: minimum 1% of the SDP or 10 m² for storage (remisage).",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "Applies to constructions of more than 400 m² SDP and more than 6 dwellings.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "les constructions de plus de 400 m² de SDP et plus de 6 logements",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The text gives two figures joined by 'ou' (1% of SDP or 10 m²) without saying which prevails: the architect must interpret."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "total_sdp_m2",
+      "op": ">",
+      "value": 400.0,
+      "text": "construction of more than 400 m² SDP"
+     },
+     {
+      "fact": "n_dwellings",
+      "op": ">",
+      "value": 6.0,
+      "text": "more than 6 dwellings"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "Pour les deux roues motorisées, les constructions de plus de 400 m² de SDP et plus de 6 logements : minimum 1% de la SDP ou 10 m² pour le remisage.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 0.75,
+    "value_max": null,
+    "unit": "m2",
+    "formula_text": null,
+    "summary": "Non-motorised two-wheelers: a reserved space of at least 0.75 m² per dwelling for F1 or F2 dwellings.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "Applies to dwellings of type F1 or F2.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "pour les logements de type F1 ou F2",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The unit here is m² per dwelling (the schema has no per-dwelling area unit): it is carried by the summary and the extract."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "n_f1_f2_dwellings",
+      "op": ">",
+      "value": 0.0,
+      "text": "the project has dwellings of type F1 or F2"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "un minimum de 0,75m² par logement pour les logements de type F1 ou F2",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 1.5,
+    "value_max": null,
+    "unit": "m2",
+    "formula_text": null,
+    "summary": "Non-motorised two-wheelers: beyond F1/F2, at least 1.5 m² per dwelling, with a minimum of 3 m².",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "Dwellings beyond F1 or F2 ('Au-delà').",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "Au-delà, un minimum de 1,5 m² par logement",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "'Au-delà' is read as dwellings larger than F2: the architect must confirm.",
+     "The unit here is m² per dwelling; the 3 m² minimum is a floor for the space as a whole."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "n_larger_dwellings",
+      "op": ">",
+      "value": 0.0,
+      "text": "the project has dwellings larger than F2 ('Au-delà')"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "Au-delà, un minimum de 1,5 m² par logement, avec un minimum de 3m².",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 10.0,
+    "value_max": null,
+    "unit": "m2",
+    "formula_text": null,
+    "summary": "Non-motorised two-wheelers: if the operation's floor area exceeds 400 m², the space must be at least 10 m².",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "The floor area of the operation is more than 400 m².",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "Lorsque la surface de plancher de l'opération est supérieure à 400m²",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "total_sdp_m2",
+      "op": ">",
+      "value": 400.0,
+      "text": "floor area of the operation above 400 m²"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "Lorsque la surface de plancher de l'opération est supérieure à 400m², cet espace doit avoir une superficie minimale de 10 m²",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 5.0,
+    "value_max": null,
+    "unit": "m2",
+    "formula_text": null,
+    "summary": "Non-motorised two-wheelers: if the operation's SDP is 400 m² or less, the space must be at least 5 m².",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement"
+    ],
+    "conditions": [
+     {
+      "description": "The SDP of the operation is 400 m² or less.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#table_habitation_MANUAL",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "table, housing row",
+       "pdf_pages": [
+        16
+       ],
+       "printed_pages": [
+        56
+       ],
+       "extract": "lorsque la SDP de l'opération est inférieure ou égale à 400m²",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "total_sdp_m2",
+      "op": "<=",
+      "value": 400.0,
+      "text": "SDP of the operation 400 m² or less"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.12#table_habitation_MANUAL",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "table, housing row",
+      "pdf_pages": [
+       16
+      ],
+      "printed_pages": [
+       56
+      ],
+      "extract": "de 5 m² lorsque la SDP de l'opération est inférieure ou égale à 400m²",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "exact",
+    "value": 5.0,
+    "value_max": null,
+    "unit": "%",
+    "formula_text": null,
+    "summary": "General rule for motor vehicles: 5% of the required places are reserved for people with reduced mobility.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "Only applies when the number of required places is 20 or more; otherwise the regulations in force apply.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.4",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.4",
+       "pdf_pages": [
+        17,
+        18,
+        19
+       ],
+       "printed_pages": [
+        57,
+        58,
+        59
+       ],
+       "extract": "Cette règle ne s'applique que lorsque le nombre de places exigibles est supérieur ou égal à 20",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [
+     "article L. 151-30",
+     "article L. 151-33"
+    ],
+    "ambiguity_flags": [],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "required_places",
+      "op": ">=",
+      "value": 20.0,
+      "text": "number of required places is 20 or more"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#12.4",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "12.4",
+      "pdf_pages": [
+       17,
+       18,
+       19
+      ],
+      "printed_pages": [
+       57,
+       58,
+       59
+      ],
+      "extract": "Un nombre de places spécifiques correspondant à 5% des places requises est affecté au stationnement des personnes à mobilité réduite.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": null,
+    "summary": "Parking must be provided outside public roads.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.12#12.1",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "12.1",
+      "pdf_pages": [
+       17
+      ],
+      "printed_pages": [
+       57
+      ],
+      "extract": "Le stationnement des véhicules correspondant aux besoins des constructions et installations doit être assuré en dehors des voies publiques.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": null,
+    "summary": "Mixed-use buildings: each use's norm is applied pro rata to the floor area it occupies, rounded up.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "The construction has several uses (habitat, commerces, activités...).",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.12#12.3",
+       "document": null,
+       "article": "UB.12",
+       "sub_item": "12.3",
+       "pdf_pages": [
+        17
+       ],
+       "printed_pages": [
+        57
+       ],
+       "extract": "Lorsqu'une construction comporte plusieurs affectations (habitat, commerces, activités..)",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The 12.3 text adds that the equivalent floor area includes parking places and circulation space."
+    ],
+    "missing_context": [],
+    "applicability_tests": [
+     {
+      "fact": "multiple_uses",
+      "op": "is_true",
+      "value": null,
+      "text": "the construction has several uses"
+     }
+    ],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#12.3",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "12.3",
+      "pdf_pages": [
+       17
+      ],
+      "printed_pages": [
+       57
+      ],
+      "extract": "les normes afférentes à chacune d'elles seront appliquées au prorata de la surface de plancher qu'elles occupent, le calcul est effectué à l'arrondi supérieur",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": null,
+    "summary": "Minimum size of a parking place for housing, offices, shops and car parks: 5 m long and 2.5 m wide.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [
+     "article L. 151-30",
+     "article L. 151-33"
+    ],
+    "ambiguity_flags": [
+     "The OCR text reads 'largueur' for 'largeur'."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.12#12.4",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "12.4",
+      "pdf_pages": [
+       17,
+       18,
+       19
+      ],
+      "printed_pages": [
+       57,
+       58,
+       59
+      ],
+      "extract": "l'habitat et les bureaux est de 5 mètres de longueur et 2,5 mètres de largueur",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": null,
+    "summary": "Minimum size of a parking place for people with reduced mobility: 5.5 m long and 3.5 m wide.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [
+     "article L. 151-30",
+     "article L. 151-33"
+    ],
+    "ambiguity_flags": [],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.12#12.4",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "12.4",
+      "pdf_pages": [
+       17,
+       18,
+       19
+      ],
+      "printed_pages": [
+       57,
+       58,
+       59
+      ],
+      "extract": "La dimension des places de stationnement pour personnes à mobilité réduite ne peut pas être inférieure aux dimensions suivantes : 5,5 mètres de longueur et 3,5 mètres de largueur.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "stationnement",
+    "regulation_status": "reglemente",
+    "kind": "textual",
+    "value": null,
+    "value_max": null,
+    "unit": null,
+    "formula_text": null,
+    "summary": "Aided rental housing: half of the parking places must be covered (rounded down if the number is odd).",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [
+     "logement_aide"
+    ],
+    "conditions": [],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "This sentence sits under heading 12.5.1 (aided rental housing) but speaks of 'logements' in general: whether it applies to all housing is for the architect to interpret."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "not_for_project",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.12#12.5",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.12",
+      "sub_item": "12.5",
+      "pdf_pages": [
+       19,
+       20
+      ],
+      "printed_pages": [
+       59,
+       60
+      ],
+      "extract": "La moitié des places de stationnement destinées aux logements doit être couverte. Dans le cas où le nombre de places de stationnement serait impair, le nombre de places couvertes à réaliser sera arrondi au chiffre inférieur.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   }
+  ],
+  "notes": [
+   "Only the housing row of the parking table (printed page 56) is transcribed (human transcription confirmed by the architect). The rows for hébergement hôtelier, publics spécifiques, bureaux, commerce, artisanat et services, and services publics are not extracted for this housing project.",
+   "Articles 12.6 to 12.9 were left out of the prompt as being about other building types; they are saved in the retrieval results, not deleted.",
+   "Article 12.5.1 asks for electric-vehicle charging in closed car parks of buildings with at least two dwellings and refers to a minimum value in the PDUIF, which is not in this document.",
+   "Article 12.4.2 allows a shared car park for an operation with an overall plan; 12.4.6 sets ramp widths and slopes; 12.4.7 says 'commanded' places do not count. None of these is extracted as a rule here.",
+   "Articles L. 151-30 to L. 151-33 of the Code de l'urbanisme (cross-reference in 12.4.3) are not in this document.",
+   "Dwelling size, number of dwellings, dwelling types (F1/F2 or larger), aided housing, group or lotissement, several uses, distance to a station and the total SDP are project facts the architect enters; the number of required places is computed by the program."
+  ]
+ },
+ "espaces_verts_pleine_terre": {
+  "parameter": "espaces_verts_pleine_terre",
+  "sector": "UB",
+  "building_types": [
+   "logement"
+  ],
+  "status": "reglemente",
+  "rules": [
+   {
+    "parameter": "espaces_verts_pleine_terre",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 50.0,
+    "value_max": null,
+    "unit": "%",
+    "formula_text": null,
+    "summary": "At least 50% of unbuilt spaces must remain as open ground (pleine terre).",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [
+     {
+      "description": "No rules fixed for technical structures necessary for public networks, public/collective interest facilities, reconstruction after a disaster, and modifications or extensions of existing buildings that do not increase the existing footprint.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.9#9.3",
+       "document": null,
+       "article": "UB.9",
+       "sub_item": "9.3",
+       "pdf_pages": [
+        11
+       ],
+       "printed_pages": [
+        51
+       ],
+       "extract": "Il n'est pas fixe de règle pour\n\n9.3.1. Les ouvrages techniques nécessaires à l'exploitation de la voirie et\ndes réseaux publics d'infrastructures (postes de transformation, stations de\nrelevage des eaux, abribus, pylônes, etc.),\n\n9.3.2. Les constructions et installations nécessaires aux services publics ou\nd'intérêt collectif,\n\n9.3.3. La reconstruction d'un bâtiment existant détruit en tout ou partie à la\nsuite d'un sinistre.\n\n9.3.4, Les modifications ou extensions de bâtiments existants dont\nl'implantation ne respecte pas les règles de la zone sous réserve que\nl'emprise aux sols des constructions avant travaux ne soit pas augmentée.",
+       "verified": true
+      }
+     }
+    ],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.9#9.2",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.9",
+      "sub_item": "9.2",
+      "pdf_pages": [
+       11
+      ],
+      "printed_pages": [
+       51
+      ],
+      "extract": "50% des espaces non bâti doivent impérativement rester en pleine terre.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "espaces_verts_pleine_terre",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 50.0,
+    "value_max": null,
+    "unit": "%",
+    "formula_text": null,
+    "summary": "Unbuilt spaces (espaces libres de construction) must include an open ground (pleine terre) surface equal to at least 50% of their total area.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "applies",
+    "applicability_confirmed": true,
+    "sources": [
+     {
+      "chunk_id": "UB.13#13.1",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.13",
+      "sub_item": "13.1",
+      "pdf_pages": [
+       21,
+       22
+      ],
+      "printed_pages": [
+       61,
+       62
+      ],
+      "extract": "Les espaces libres de construction tels que définit dans l'article 9,\ndoivent comprendre obligatoirement une surface de pleine terre au moins\négale à 50% de leur superficie.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "espaces_verts_pleine_terre",
+    "regulation_status": "reglemente",
+    "kind": "minimum",
+    "value": 5.0,
+    "value_max": null,
+    "unit": "m",
+    "formula_text": null,
+    "summary": "A 5-meter wide strip measured from the parcel boundary must be kept in open ground (pleine terre) and planted with local species within the ecological corridor protection perimeter.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [
+     {
+      "description": "Applies to properties or parts of properties included in the protection perimeter of the Boulevard du Général de Gaulle ecological corridor.",
+      "applies_to": null,
+      "source": {
+       "chunk_id": "UB.13#13.1",
+       "document": null,
+       "article": "UB.13",
+       "sub_item": "13.1",
+       "pdf_pages": [
+        21,
+        22
+       ],
+       "printed_pages": [
+        61,
+        62
+       ],
+       "extract": "pour\nles propriétés ou parties de propriétés incluses dans le périmètre de\nprotection du corridor écologique du Boulevard du Général de Gaulle",
+       "verified": true
+      }
+     }
+    ],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "to_confirm",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.13#13.1",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.13",
+      "sub_item": "13.1",
+      "pdf_pages": [
+       21,
+       22
+      ],
+      "printed_pages": [
+       61,
+       62
+      ],
+      "extract": "une\nbande de 5 mètres mesurée depuis la limite parcellaire incluse dans le\ncorridor doit être conservée en pleine terre et plantée avec des végétaux\nd'essence locale.",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [],
+    "review_status": "a_verifier",
+    "architect_note": null
+   },
+   {
+    "parameter": "espaces_verts_pleine_terre",
+    "regulation_status": "reglemente",
+    "kind": "per_unit",
+    "value": 1.0,
+    "value_max": null,
+    "unit": "aucune",
+    "formula_text": null,
+    "summary": "One high-stem tree is required for every 300 m2 of open ground (pleine terre) surface.",
+    "applies_to_sectors": [
+     "UB"
+    ],
+    "applies_to_building_types": [],
+    "conditions": [],
+    "exceptions": [],
+    "cross_references": [],
+    "unresolved_cross_references": [],
+    "ambiguity_flags": [
+     "The verbatim text contains an OCR typo ('300m?2') for the area unit."
+    ],
+    "missing_context": [],
+    "applicability_tests": [],
+    "applicability_logic": "all",
+    "needs_other_facts": [],
+    "applicable_to_project": "to_confirm",
+    "applicability_confirmed": null,
+    "sources": [
+     {
+      "chunk_id": "UB.13#13.1",
+      "document": "REGLEMENT ZONE UB.pdf",
+      "article": "UB.13",
+      "sub_item": "13.1",
+      "pdf_pages": [
+       21,
+       22
+      ],
+      "printed_pages": [
+       61,
+       62
+      ],
+      "extract": "Il est exigé la plantation d’un arbre de haute tige par tranche de\n300m?2 de surface de pleine terre",
+      "verified": true
+     }
+    ],
+    "guardrail_issues": [
+     "ERROR value 1 does not appear in the extract(s)"
+    ],
+    "review_status": "a_verifier",
+    "architect_note": null
+   }
+  ],
+  "notes": [
+   "According to sub-item 9.2, spaces on slabs (espaces sur dalle) are not considered open ground (pleine terre), even if covered with topsoil.",
+   "Sub-item 13.1.3 stipulates that existing wooded areas within the protection perimeter of the Boulevard du Général de Gaulle ecological corridor must be maintained or replaced by an equivalent wooded area with diversified local species.",
+   "Sub-item 13.3 details specific rules for Protected Green Spaces (Espaces Verts Protégés - EVP) marked on the zoning map, requiring prior authorization for modifications and preservation of ecological continuity."
+  ]
+ }
+}

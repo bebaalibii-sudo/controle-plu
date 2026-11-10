@@ -1,0 +1,18 @@
+{
+ "sha256": "efe9fecc5a215d71040ffe666b0134813e8926ef8037ca4e56d3d2201cd3cd55",
+ "commune": "Éragny-sur-Oise",
+ "document": "REGLEMENT ZONE UB.pdf",
+ "zone": "UB",
+ "verified_sector": "UB",
+ "printed_page_offset": 40,
+ "n_pages": 23,
+ "sectors": [
+  "UBa",
+  "UBb",
+  "UBb1",
+  "UBc",
+  "UBc1",
+  "UBc2",
+  "UBc3"
+ ]
+}
